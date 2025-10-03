@@ -1,0 +1,152 @@
+/* Reset básico: remove espaçamentos padrões de todos os elementos */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Variáveis de cores para reaproveitamento no projeto */
+:root {
+  --aliceblue: aliceblue;
+  --color-purple: purple;
+  --color-purple2: rgb(105, 34, 105);
+  --color-purple3: rgb(85, 17, 85);
+  --color-blue: rgb(91, 91, 253);
+  --color-dark: rgb(39, 39, 39);
+  --color-black: black;
+}
+
+/* Estilo geral do corpo da página */
+body {
+  font-family: Ubuntu, sans-serif;
+  background: var(--aliceblue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* Cabeçalho principal */
+.header-class {
+  background-color: var(--color-dark);
+  width: 100%;
+  height: 5rem;
+}
+
+/* Texto do título do cabeçalho */
+.title-principal {
+  color: var(--aliceblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Container principal do conteúdo */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  color: var(--aliceblue);
+  background-color: var(--color-dark);
+  border-radius: 3rem;
+  gap: 3rem;
+}
+
+/* Estilo do título secundário (IP fixo) */
+.title-secundario {
+  color: var(--aliceblue);
+}
+
+/* Seções que recebem inputs */
+.container-add-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Inputs de máscara e IP destino */
+.container-add-item input {
+  font-size: 1rem;
+  outline: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 300px;
+  background-color: var(--aliceblue);
+  transition: .9s;
+}
+
+/* Efeito ao passar o mouse nos inputs */
+.container-add-item input:hover {
+  background-color: grey;
+}
+
+/* Botão principal */
+.container-button button {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--color-dark);
+  background-color: var(--aliceblue);
+}
+
+/* Efeito de hover no botão */
+.container-button button:hover {
+  font-size: 20px;
+  background-color: grey;
+  color: var(--aliceblue);
+  transition: .9s;
+}
+
+/* Rodapé fixo na parte inferior */
+.footer-class {
+  background-color: var(--color-dark);
+  width: 100%;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+}
+
+/* Área de redes sociais no rodapé */
+.list-social {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: var(--aliceblue);
+}
+
+/* Ícones das redes sociais */
+.list-social a {
+  color: var(--aliceblue);
+  font-size: 1.5rem;
+}
+
+/* Área de resultados */
+#result-area {
+  padding: 1rem;
+  border-radius: 1rem;
+  min-height: 80px;
+  background-color: var(--aliceblue);
+  color: var(--color-dark);
+  font-size: 1rem;
+}
+
+/* Classes para mensagens */
+#resultado.info {
+  color: #000;       /* Preto para mensagem normal */
+}
+
+#resultado.success {
+  color: green;      /* Verde para sucesso */
+}
+
+#resultado.error {
+  color: red;        /* Vermelho para erro */
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.svg">
+  <link rel="stylesheet" href="/assets/fonts/fonts.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <title>Software-rede</title>
+</head>
+<body>
+  <header class="header-class">
+    <section class="title-principal">
+      <h2>Verificador de Rede / AlIesDev</h2>
+    </section>
+  </header>
+
+  <main class="container">
+    <section class="title-secundario">
+      <h2>IP de origem fixo: 192.168.1.10</h2>
+    </section>
+
+    <section class="container-add-item">
+      <h2>Máscara (em bits):</h2>
+      <input type="text" id="bits" placeholder="Ex: 24">
+    </section>
+
+    <section class="container-add-item">
+      <h2>IP de destino:</h2>
+      <input type="text" id="ipDestino" placeholder="Ex: 192.168.1.20">
+    </section>
+
+    <section class="container-button">
+      <button id="btn-add" type="button" onclick="verificar()">Verificar</button>
+    </section>
+
+    <section class="container-result">
+      <h2>Resultado:</h2>
+      <div id="result-area">
+        <p id="resultado" class="info">Aguardando...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-class">
+    <div class="list-social">
+      <h2>Desenvolvido por AlIesDev</h2>
+      <a href="#"><i class="bi bi-github"></i></a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
