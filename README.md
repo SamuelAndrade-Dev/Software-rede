@@ -28,6 +28,6 @@ Este projeto é uma aplicação simples em **HTML, CSS e JavaScript** que permit
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/verificador-rede.git
+   git clone https://github.com/AlIesDev/verificador-rede.git
 # Software-rede
 # Software-rede
