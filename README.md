@@ -1,7 +1,6 @@
 # 🌐 Verificador de Rede
 
-Este projeto é uma aplicação simples em **HTML, CSS e JavaScript** que permite verificar se dois endereços IP pertencem à mesma rede, utilizando uma máscara de sub-rede em notação CIDR (ex: `/24`).
-
+Este projeto é uma aplicação simples em **HTML, CSS e JavaScript** que permite verificar se dois endereços IP pertencem à mesma rede, utilizando uma máscara de sub-rede
 ---
 
 ## 🚀 Funcionalidades
@@ -19,7 +18,7 @@ Este projeto é uma aplicação simples em **HTML, CSS e JavaScript** que permit
 
 - **HTML5** – Estrutura da página  
 - **CSS3** – Estilização responsiva e temas personalizados  
-- **JavaScript (Vanilla)** – Lógica de cálculo de redes  
+- **JavaScript** – Lógica de cálculo de redes  
 - **Bootstrap Icons** – Ícones no rodapé  
 
 ---
